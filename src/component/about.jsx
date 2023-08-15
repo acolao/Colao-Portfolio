@@ -1,6 +1,6 @@
 export default function About() {
     return (
-      <section className="container">
+      <section>
         <div className="my-2">
           <p>
             Helvetica put a bird on it church-key Blue Bottle banjo bespoke

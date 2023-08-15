@@ -7,5 +7,14 @@ import Nav from "./component/nav";
 export default function App() {
   const currentPage = useLocation().pathname;
 
-  return <Nav currentPage={currentPage} />;
+  return (
+    <main className="container">
+      <div>
+        <About currentPage={currentPage} />
+      </div>
+      <div>
+        <Nav currentPage={currentPage} />
+      </div>
+    </main>
+  );
 }
