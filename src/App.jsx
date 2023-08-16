@@ -1,20 +1,21 @@
-import ReactDOM from "react-dom/client";
+import Header from "./component/Header";
+import Nav from "./component/Nav";
+import Footer from "./component/Footer/";
+import Page from "./component/Page";
 import { useLocation } from "react-router-dom";
-import "./App.css";
-import About from "./component/about";
-import Nav from "./component/nav";
 
 export default function App() {
   const currentPage = useLocation().pathname;
 
   return (
-    <main className="container">
-      <div>
-        <About currentPage={currentPage} />
-      </div>
-      <div>
+    <div className="header">
+      <Header>
         <Nav currentPage={currentPage} />
-      </div>
-    </main>
+      </Header>
+      <main className="mainPage">
+        <Page currentPage={currentPage} />
+      </main>
+      <Footer />
+    </div>
   );
 }
