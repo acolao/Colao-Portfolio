@@ -1,3 +1,4 @@
+import React from 'react';
 import Header from "./component/Header";
 import Nav from "./component/Nav";
 import Footer from "./component/Footer/";
@@ -8,11 +9,11 @@ export default function App() {
   const currentPage = useLocation().pathname;
 
   return (
-    <div className="header">
+    <div>
       <Header>
         <Nav currentPage={currentPage} />
       </Header>
-      <main className="mainPage">
+      <main>
         <Page currentPage={currentPage} />
       </main>
       <Footer />
