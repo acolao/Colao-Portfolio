@@ -1,8 +1,8 @@
 export default function About() {
     return (
       <section>
-        <div className="about">
           <h1>Alison Colao</h1>
+        <div className="about">
           <p>
             Helvetica put a bird on it church-key Blue Bottle banjo bespoke
             brunch Etsy authentic Marfa quinoa typewriter plaid direct trade
