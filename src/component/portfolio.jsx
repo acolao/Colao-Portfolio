@@ -4,40 +4,28 @@ import Project from "./project";
 export default function Portfolio() {
   const [project] = useState([
     {
-      name: "logoCreator",
-      description: "SVG Generator",
-      link: "https://github.com",
-      repo: "https://github.com/acolao/Logo-Creator.git",
-    },
-    {
       name: "passwordJavaScript",
       description: "JavaScript Password Generator",
       link: "https://acolao.github.io/Password-JavaScript/",
-      repo: "https://github.com/acolao/Password-JavaScript.git",
+      repo: "https://acolao.github.io/Password-JavaScript/",
     },
     {
-      name: "recipeSearcher",
-      description: "API",
+      name: "feedMe",
+      description: "FeedMe",
       link: "https://epicasino.github.io/Feed-Me/",
       repo: "https://github.com/epicasino/Feed-Me.git",
     },
     {
-      name: "recipeSearcher",
-      description: "API",
-      link: "https://epicasino.github.io/Feed-Me/",
-      repo: "https://github.com/epicasino/Feed-Me.git",
+      name: "dayTripper",
+      description: "Daytripper",
+      link: "https://github.com/epicasino/daytripper.git",
+      repo: "https://github.com/epicasino/daytripper.git",
     },
     {
-      name: "recipeSearcher",
-      description: "API",
-      link: "https://epicasino.github.io/Feed-Me/",
-      repo: "https://github.com/epicasino/Feed-Me.git",
-    },
-    {
-      name: "recipeSearcher",
-      description: "API",
-      link: "https://epicasino.github.io/Feed-Me/",
-      repo: "https://github.com/epicasino/Feed-Me.git",
+      name: "workdayScheduler",
+      description: "Workday Scheduler",
+      link: "https://acolao.github.io/Work-Day-Scheduler/",
+      repo: "https://github.com/acolao/Work-Day-Scheduler.git",
     },
   ]);
 
