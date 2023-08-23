@@ -18,7 +18,7 @@ export default function Portfolio() {
     {
       name: "dayTripper",
       description: "Daytripper",
-      link: "https://github.com/epicasino/daytripper.git",
+      link: "https://daytripper-app-1577e78f3877.herokuapp.com/",
       repo: "https://github.com/epicasino/daytripper.git",
     },
     {
@@ -31,7 +31,7 @@ export default function Portfolio() {
 
   return (
     <div>
-      <div className="flex-row">
+      <div className="portdisplay">
         {project.map((project, idx) => (
           <Project project={project} key={"project" + idx} />
         ))}
