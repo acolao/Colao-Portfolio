@@ -25,6 +25,7 @@ width: 90%;
 justify-content: right;
 text-align: center;
 font-size: 50px;
+background-color: aliceblue;
 }
 
 nav li {
@@ -93,12 +94,14 @@ button {
   border: 3px solid black;
   padding: 10px;
 }
+
 .project {
-  position: relative;
-  width: 100%;
-  max-width: 500px;
-  height: 300px;
-  margin: 30px;
+position: relative;
+display: inline-block;
+width: 100%;
+max-width: 500px;
+height: 300px;
+margin: 30px;
 }
 
 .project-bg {
@@ -108,7 +111,7 @@ button {
 }
 
 .project-text {
-    color: var(--secondary);
+    color: white;
     position: absolute;
     top: 0px;
     bottom: 0px;
@@ -120,9 +123,9 @@ button {
     transition: all .5s ease-in-out;
 }
 .project-text:hover {
-  background-color: var(--alpha);
-  opacity: 1;
-  border: 10px solid var(--secondary);
+  background-color: rgb(247, 199, 207);
+  opacity: .9;
+  border: 10px solid white;
 }
 
 .project-text h3 {
