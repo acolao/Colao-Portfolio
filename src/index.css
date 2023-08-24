@@ -1,5 +1,5 @@
 :root {
-  font-family: 'Garamond',serif;
+  font-family: 'Bellota, Garamond',serif;
   line-height: 1.5;
 }
 
@@ -156,19 +156,21 @@ margin: 30px;
 
 
 .footer {
-  font-size: 48px;
   text-align: center;
-  background-color: aqua;
+  position: relative;
+  display: block;
 }
 
 .footer a {
   color: black;
-  font-size: large;
-  opacity: 1;
   margin: 10px 20px;
   transition: all .3s ease-in-out;
 }
 
 .footer a:hover {
   opacity: 1;
+}
+
+ul{
+  list-style: none;
 }

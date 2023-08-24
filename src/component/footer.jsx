@@ -2,11 +2,11 @@ export default function Footer() {
 
   const icons = [
     {
-      name: "github",
+      name: "fab fa-github",
       link: "https://github.com/acolao",
     },
     {
-      name: "linkedin",
+      name: "fab fa-linkedin",
       link: "https://www.linkedin.com/in/alisoncolao",
     },
   ];
