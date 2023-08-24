@@ -1,5 +1,5 @@
 import { removeHyphensAndCapitalize } from "../utils/helpers";
-import * as projects from "../../src/assets/assets";
+import * as projects from "./assets/assets";
 
 export default function Project({ project }) {
   const { name, repo, link, description } = project;

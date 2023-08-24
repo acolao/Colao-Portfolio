@@ -1,17 +1,13 @@
 export default function Footer() {
-  // Replace links with social media profiles
+
   const icons = [
     {
-      name: "fab fa-github",
-      link: "https://github.com/",
+      name: "github",
+      link: "https://github.com/acolao",
     },
     {
-      name: "fab fa-linkedin",
-      link: "https://www.linkedin.com/",
-    },
-    {
-      name: "fab fa-stack-overflow",
-      link: "https://stackoverflow.com/",
+      name: "linkedin",
+      link: "https://www.linkedin.com/in/alisoncolao",
     },
   ];
 

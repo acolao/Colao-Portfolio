@@ -53,7 +53,7 @@ export default function Contact() {
           />
         </div>
         <div>
-          <label htmlFor="email">Email address:</label>
+          <label htmlFor="email">Email:</label>
           <input
             type="email"
             name="email"

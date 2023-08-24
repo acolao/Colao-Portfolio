@@ -1,7 +1,7 @@
 import React from 'react';
 //import Header from "./component/Header";
 import Nav from "./component/Nav";
-import Footer from "./component/Footer/";
+import Footer from "./component/footer";
 import Page from "./component/Page";
 import { useLocation } from "react-router-dom";
 
