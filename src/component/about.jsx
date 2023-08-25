@@ -1,15 +1,14 @@
 export default function About() {
     return (
       <section>
-          <h1>Alison Colao</h1>
+        <h1>Hello there!</h1>
         <div className="about">
           <p>
-            Helvetica put a bird on it church-key Blue Bottle banjo bespoke
-            brunch Etsy authentic Marfa quinoa typewriter plaid direct trade
-            small batch wayfarers bicycle rights cliche craft beer gastropub
-            single-origin coffee Godard Carles you probably haven't heard of
-            them irony pickled kitsch synth sriracha gentrify literally heirloom
-            blog Truffaut paleo scenester.
+            I'm Alison Colao, a full stack web developer with a flair for turning
+            ideas into interactive realities. With a foundation in both
+            front-end finesse and back-end wizardry, I craft seamless,
+            user-centric websites and applications that marry functionality with
+            aesthetics.
           </p>
         </div>
       </section>
