@@ -22,6 +22,7 @@ body {
 .footer a {
   display: inline;
   position: relative;
+  font-size: 30px;
   color: black;
   margin: 20px 50px;
 }
