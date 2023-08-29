@@ -1,6 +1,6 @@
 import React from 'react';
-import Nav from "./component/Nav";
 import Footer from "./component/footer";
+import Nav from "./component/nav";
 import Page from "./component/Page";
 import { useLocation } from "react-router-dom";
 
