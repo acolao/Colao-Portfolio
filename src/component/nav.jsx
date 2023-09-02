@@ -7,6 +7,10 @@ export default function Nav({ currentPage }) {
   return (
     <nav>
       <ul className="navig">
+        <img className="logo"
+          src="/public/alison-colao-low-resolution-logo-black-on-transparent-background.png"
+          alt="logo"
+        ></img>
         <li className={`${currentPage === "/" && "navActive"}`} key="about">
           <Link to="/">About</Link>
         </li>

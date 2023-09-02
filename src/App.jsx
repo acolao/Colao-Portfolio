@@ -10,8 +10,8 @@ export default function App() {
   return (
     <main>
         <Nav currentPage={currentPage} />
-        <Page currentPage={currentPage} />
-        <Footer />
+      <Page currentPage={currentPage} />
+      <Footer />
     </main>
   );
 }
