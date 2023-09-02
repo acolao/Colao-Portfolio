@@ -8,12 +8,10 @@ export default function App() {
   const currentPage = useLocation().pathname;
 
   return (
-    <div>
+    <main>
         <Nav currentPage={currentPage} />
-      <main>
         <Page currentPage={currentPage} />
-      </main>
-      <Footer />
-    </div>
+        <Footer />
+    </main>
   );
 }

@@ -1,29 +1,38 @@
 :root {
+  --primary: #D2C1B3;
+  --secondary: #BBADA1;
+  --tertiary: #E7D7CB;
+  --dark: #AA9D94;
+  --light:#F7EDE2;
   font-family: 'Bellota, Garamond',serif;
   line-height: 1.5;
 }
 
 body {
-  background-image: url("../neutral-abstract-texture-minimal-background.png");
-  background-color: antiquewhite;
+  /*background-image: url("../neutral-abstract-texture-minimal-background.png");*/
+  background-color: var(--light);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-.footer {
-  display: flex;
-  justify-content: space-evenly;
+main {
+    min-height: 100vh;
+}
+.sticky-footer {
+  position: sticky;
   text-align: center;
+  top: 100%;
+  background-color: var(--dark);
   width: 100%;
-  height: 100px;
+  height: 60px;
 }
 
-.footer a {
+
+.sticky-footer a {
   display: inline;
-  position: relative;
   font-size: 30px;
-  color: black;
+  color: var(--light);
   margin: 20px 50px;
 }
 
@@ -38,7 +47,7 @@ ul{
 .about {
 margin: auto;
 width: 50%;
-border: 3px solid white;
+border: 3px solid var(--secondary);
 padding: 30px 30px;
 font-size: 20px;
 text-align: center;
@@ -50,17 +59,17 @@ h1 {
   font-size: 40px;
   text-align: center;
   text-shadow: 5px 5px 10px rgba(0,0,0, 0.5);
-  color: rgba(245, 245, 245, 0.788);
+  color: var(--dark) ;
 }
 
 .navig {
-position: relative;
-top: 0;
-width: 100%;
-justify-content: right;
-text-align: center;
-font-size: 40px;
-background-color: antiquewhite;
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: 40px;
+  background-color: var(--dark);
 }
 
 nav li {
@@ -81,7 +90,7 @@ h2 {
   font-weight: 100;
   text-align: center;
   text-shadow: 2px 2px 10px rgba(0,0,0, 0.5);
-  color: antiquewhite;
+  color: var(--secondary);
 }
 
 #contact-form {
@@ -89,7 +98,7 @@ margin: auto;
 padding: 20px 20px;
 width: 600px;
 font-size: 20px;
-border: 3px solid white;
+border: 3px solid var(--light);
 }
 
 input {
@@ -121,7 +130,7 @@ font-size: 40px;
 button {
   text-align: center;
   margin: auto;
-  border: 1px solid white;
+  border: 1px solid var(--light);
   padding: 10px;
   display: flex;
   justify-content: center;
@@ -143,7 +152,7 @@ margin: 30px;
 }
 
 .project-text {
-    color: white;
+    color: var(--light);
     position: absolute;
     top: 0px;
     bottom: 0px;
@@ -155,9 +164,9 @@ margin: 30px;
     transition: all .5s ease-in-out;
 }
 .project-text:hover {
-  background-color: rgb(247, 199, 207);
+  background-color: var(--tertiary);
   opacity: .9;
-  border: 10px solid white;
+  border: 10px solid var(--light);
 }
 
 .project-text h3 {
@@ -172,7 +181,7 @@ margin: 30px;
 }
 
 .project-text a:hover {
-  color: var(--darker);
+  color: var(--dark);
 }
 
 .portdisplay {

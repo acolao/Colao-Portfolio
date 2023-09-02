@@ -12,7 +12,7 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="footer">
+    <footer className="sticky-footer">
       {icons.map((icon) => (
         <a
           href={icon.link}
