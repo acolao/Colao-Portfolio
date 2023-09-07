@@ -54,7 +54,7 @@ ul {
   text-align: center;
 }
 
-img {
+.aboutimage {
   display: inline;
   float: right;
   margin-right: 200px;
