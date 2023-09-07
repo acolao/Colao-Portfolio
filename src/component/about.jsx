@@ -1,6 +1,7 @@
 export default function About() {
     return (
       <section>
+        <img src="headshot.png" alt="headshot" width="300px" height="400px"></img>
         <h1>Hello there!</h1>
         <div className="about">
           <p>
