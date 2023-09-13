@@ -4,7 +4,7 @@ export default function About() {
         <img
           src="headshot.png"
           alt="headshot"
-          width="300px"
+          width="400px"
           height="400px"
           className="aboutimage"
         ></img>

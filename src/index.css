@@ -31,9 +31,9 @@ main {
 
 .sticky-footer a {
   display: inline;
-  font-size: 30px;
+  font-size: 20px;
   color: var(--light);
-  margin: 20px 50px;
+  margin: 10px 50px;
 }
 
 .footer a:hover {
@@ -47,25 +47,27 @@ ul {
 .about {
   display: inline;
   float: left;
-  margin: auto;
   width: 50%;
+  margin: 50px;
   padding: 30px 30px;
-  font-size: 20px;
+  border: solid var(--tertiary);
+  font-size: 30px;
   text-align: center;
 }
 
 .aboutimage {
   display: inline;
   float: right;
+  height: auto;
   margin-right: 200px;
   border-radius: 30%;
   box-shadow: 10px 10px 5px var(--secondary);
 }
 
 h1 {
-  margin-top: 10px;
+  margin-top: 50px;
   font-weight: normal;
-  font-size: 40px;
+  font-size: 60px;
   text-align: center;
   text-shadow: 5px 5px 10px rgba(0,0,0, 0.5);
   color: var(--dark) ;
